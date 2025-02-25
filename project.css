@@ -684,6 +684,10 @@
     
       /* Media queries Section2 */
       @media screen and (width<576px) {
+      
+          html, body {
+            overflow-x: hidden;
+          }
       .sidebar{
         display: none;
       }
@@ -737,6 +741,10 @@
     
       /* Media queries tab view*/
       @media screen and (width>576px)  and (width<768px){
+     
+          html, body {
+            overflow-x: hidden;
+          }
         .sidebar{
           display: none;
         }
