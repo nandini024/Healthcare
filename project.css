@@ -212,7 +212,7 @@
         background-color: white;
         /* width: auto; */
         margin: auto;
-        height: auto;
+        /* height: auto; */
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         border: 2px solid white;
@@ -674,7 +674,21 @@
       cursor: pointer;
       
   }
-
+  /* arrow */
+  .fixed-icon {
+    width: 5%;
+    height: 10vh;
+    background-color:white;
+   
+    position: fixed;
+    bottom: 15%;
+    right: 2%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+  }
 
    
 
@@ -688,6 +702,22 @@
           html, body {
             overflow-x: hidden;
           }
+          .fixed-icon{
+            width: 15%;
+            bottom: 10%;
+            border-radius: 50%;
+          }
+        
+        .section5a{
+          height: 20%;
+
+          }
+
+      .section1{
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+      }
       .sidebar{
         display: none;
       }
@@ -696,6 +726,9 @@
       }
       .asec{
         display: none;
+      }
+      .section2{
+        padding-top: 20%;
       }
 
       
@@ -714,6 +747,7 @@
         }
         .container5a,.section6 {
           grid-template-columns: auto;
+          padding-bottom: 20%;
          
         }
         .section7{
@@ -735,6 +769,7 @@
         .section13{
           grid-template-columns: auto;
         }
+
       
       }
       
@@ -744,6 +779,17 @@
      
           html, body {
             overflow-x: hidden;
+          }
+
+          /* arrow */
+          .fixed-icon{
+            width: 15%;
+            bottom: 10%;
+            border-radius: 50%;
+          }
+          /* button */
+          button{
+            padding: 10%;
           }
         .sidebar{
           display: none;

@@ -13,3 +13,8 @@ function incrementCounter() {
 
 
 const counterInterval = setInterval(incrementCounter, incrementSpeed); // Increase count every 10 milliseconds
+
+
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
